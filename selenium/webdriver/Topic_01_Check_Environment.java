@@ -30,17 +30,17 @@ public class Topic_01_Check_Environment {
 	}
 
 	@Test
-	public void TC_01_Url() {
+	public void TC_01_Urll() {
 		Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/");
 	}
 
 	@Test
-	public void TC_02_Logo() {
+	public void TC_02_Logoo() {
 		Assert.assertTrue(driver.findElement(By.cssSelector("img.fb_logo")).isDisplayed());
 	}
 
 	@Test
-	public void TC_03_Form() {
+	public void TC_03_Formm() {
 		Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
 	}
 
